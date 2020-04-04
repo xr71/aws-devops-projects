@@ -27,3 +27,22 @@ With all this, we can create an event driven architecture
   - statusCode
   - headers
   - body
+
+#### Docker Workflow in AWS Cloud 9
+
+- make sure to set up a local SSH key in the C9 environment
+
+```
+ssh-keygen -t rsa
+```
+
+- goto your account settings in Github
+- goto SSH and GPG keys
+- New SSH key and paste in the public key
+- now, make a connection to the repo from the remote server
+- make a change like `echo "# Hello" >> README.md`
+- make a commit and push
+- create a Dockerfile
+- build it locally
+- tag it with unique id from AWS ECR (Amazon Container Services)
+- push it to AWS ECR
