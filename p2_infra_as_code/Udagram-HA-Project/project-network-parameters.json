@@ -1,10 +1,10 @@
 [{
         "ParameterKey": "EnvironmentName",
-        "ParameterValue": "UdacityCloudFormationProject"
+        "ParameterValue": "UdacityCloudformation"
     },
     {
         "ParameterKey": "VpcCIDR",
-        "ParameterValue": "10.0.0.0/24"
+        "ParameterValue": "10.0.0.0/16"
     },
     {
         "ParameterKey": "PublicSubnet1CIDR",
