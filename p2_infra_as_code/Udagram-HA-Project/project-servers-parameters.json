@@ -1,4 +1,10 @@
-[{
-    "ParameterKey": "EnvironmentName",
-    "ParameterValue": "UdacityCloudformation"
-}]
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "UdacityCloudformation"
+    },
+    {
+        "ParameterKey": "S3Repo",
+        "ParameterValue": "s3://p2-xr-cloudformation/udacity.zip"
+    }
+]
